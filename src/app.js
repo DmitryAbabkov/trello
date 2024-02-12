@@ -1,5 +1,5 @@
-import TaskTracker from '../src/js/game.js';
+import Task from '../src/js/game.js';
 
-const tasks = new TaskTracker();
+const tasks = new Task();
 
 tasks.addTask();

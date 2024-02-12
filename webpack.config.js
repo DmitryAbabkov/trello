@@ -4,6 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './src/index.js', // Точка входа для сборки проекта
 
+  mode: 'development', // Режим разработки
+  devtool: 'source-map',
+
   output: {
     filename: 'bundle.js', // Имя выходного файла сборки
     path: path.resolve(__dirname, 'dist'), // Путь для выходного файла сборки
