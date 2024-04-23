@@ -2,7 +2,7 @@ const path = require('path'); // Импортируем модуль "path" дл
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js', // Точка входа для сборки проекта
+  entry: './src/js/index.js', // Точка входа для сборки проекта
 
   mode: 'development', // Режим разработки
   devtool: 'source-map',
@@ -17,11 +17,11 @@ module.exports = {
       {
         test: /\.css$/, // Регулярное выражение для обработки файлов с расширением .css
         use: ['style-loader', 'css-loader'], // Загрузчики, используемые для обработки CSS-файлов
-        
+
       },
     ],
   },
-  
+
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',

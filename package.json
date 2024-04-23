@@ -6,7 +6,8 @@
     "build": "webpack"
   },
   "dependencies": {
-    "workspace": "^0.0.1-preview.1"
+    "workspace": "^0.0.1-preview.1",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "css-loader": "^6.9.0",
